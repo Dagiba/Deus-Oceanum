@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B3BE7D28-3FA9-FB23-70D3-C928B152E016}") = "Deus Oceanum", "Assembly-CSharp-firstpass.csproj", "{CCB2DE7E-0A04-F0BD-C992-FCA476054871}"
+EndProject
+Project("{B3BE7D28-3FA9-FB23-70D3-C928B152E016}") = "Deus Oceanum", "Assembly-CSharp.csproj", "{371EC275-ECC4-252D-E4FF-A11F37068533}"
+EndProject
+Project("{B3BE7D28-3FA9-FB23-70D3-C928B152E016}") = "Deus Oceanum", "Assembly-CSharp-Editor.csproj", "{8A964B23-358F-D462-1625-E22FB9B7ECBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCB2DE7E-0A04-F0BD-C992-FCA476054871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB2DE7E-0A04-F0BD-C992-FCA476054871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB2DE7E-0A04-F0BD-C992-FCA476054871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB2DE7E-0A04-F0BD-C992-FCA476054871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371EC275-ECC4-252D-E4FF-A11F37068533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371EC275-ECC4-252D-E4FF-A11F37068533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371EC275-ECC4-252D-E4FF-A11F37068533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371EC275-ECC4-252D-E4FF-A11F37068533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A964B23-358F-D462-1625-E22FB9B7ECBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A964B23-358F-D462-1625-E22FB9B7ECBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A964B23-358F-D462-1625-E22FB9B7ECBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A964B23-358F-D462-1625-E22FB9B7ECBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
