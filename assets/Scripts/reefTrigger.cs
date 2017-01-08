@@ -3,6 +3,8 @@ using System.Collections;
 
 public class reefTrigger : MonoBehaviour {
 
-	void OnTriggerEnter (Collider other) {
-		other.transform.position.z 
+    void OnTriggerEnter(Collider other) {
+        //other.transform.position.z;
+
+            }
 }
