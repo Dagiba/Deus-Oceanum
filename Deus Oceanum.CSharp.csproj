@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="assets\Scripts\MovingShark.cs" />
+    <Compile Include="assets\Scripts\ObstacleInstantiate.cs" />
     <Compile Include="assets\Scripts\ObstacleObj.cs" />
     <Compile Include="assets\Scripts\mouseDrag.cs" />
     <Compile Include="assets\Scripts\movingCamera.cs" />
