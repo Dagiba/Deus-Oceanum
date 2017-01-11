@@ -25,7 +25,7 @@ public class ObstacleInstantiate : MonoBehaviour {
             clonePrefab.AddComponent<MeshFilter>();
             clonePrefab.AddComponent<MeshRenderer>();
             clonePrefab.AddComponent<MeshCollider>();
-            //clonePrefab.convex = true;
+            clonePrefab.GetComponent<MeshCollider>().convex = true;
 
         }
     }
