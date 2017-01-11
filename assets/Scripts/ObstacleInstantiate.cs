@@ -7,9 +7,11 @@ public class ObstacleInstantiate : MonoBehaviour {
     public GameObject boxPrefab;
 
     private GameObject clonePrefab;
+    private string cloneTag;
 
 	void Start () {
-        ObstacleInstantiateHelper(boxPrefab, "ObstacleBox");
+        cloneTag = boxPrefab.tag;
+        ObstacleInstantiateHelper(boxPrefab, cloneTag);
         //boxPrefab.transform.eulerAngles = new Vector3(-90, 0, 0); 
         //clonePrefab.transform.eulerAngles = new Vector3(-90, 0, 0);
     }
@@ -20,6 +22,11 @@ public class ObstacleInstantiate : MonoBehaviour {
         foreach (GameObject cloneObst in allObj)
         {
             clonePrefab = Instantiate(prefab, cloneObst.transform.position, Quaternion.identity) as GameObject;
+            clonePrefab.AddComponent<MeshFilter>();
+            clonePrefab.AddComponent<MeshRenderer>();
+            clonePrefab.AddComponent<MeshCollider>();
+            //clonePrefab.convex = true;
+
         }
     }
 	
